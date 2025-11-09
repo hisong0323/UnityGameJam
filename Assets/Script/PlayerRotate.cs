@@ -17,6 +17,8 @@ public class PlayerRotate : MonoBehaviour
     private float mouseX;
     private float mouseY;
 
+
+
     void Start()
     {
         // 마우스 커서를 화면 중앙에 고정
@@ -29,6 +31,7 @@ public class PlayerRotate : MonoBehaviour
 
     void Update()
     {
+
         // 마우스 입력 받기
         mouseX = Input.GetAxisRaw("Mouse X") * mouseSensitivity;
         mouseY = Input.GetAxisRaw("Mouse Y") * mouseSensitivity;
